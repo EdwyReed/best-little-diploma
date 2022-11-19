@@ -53,16 +53,17 @@ svg {
 }
 
 input, h1, h2, span {
-    color: #DCC0F9;
+    color: #b59fcc;
 }
 
 h1 {
-    text-shadow: 2px 2px 5px #a67d83;
+    /*text-shadow: 2px 2px 5px #a67d83;*/
     letter-spacing: 3px;
+    -webkit-text-stroke: 1px rgba(217, 164, 172, 0.3);
 }
 
 input, span {
-    text-shadow: 1px 1px 2px #a67d83;
+    -webkit-text-stroke: 1px rgba(217, 164, 172, 0.3);
     letter-spacing: 3px;
 }
 
