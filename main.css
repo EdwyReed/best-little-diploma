@@ -43,6 +43,15 @@ body {
     /*padding-top: 7rem;*/
 }
 
+a {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+    font-size: 3em;
+    letter-spacing: 2px;
+    opacity: .5;
+}
+
 svg {
     position: absolute;
     top: 0;
@@ -52,7 +61,7 @@ svg {
     z-index: -5;
 }
 
-input, h1, h2, span {
+input, h1, h2, span, a {
     color: #b59fcc;
 }
 
@@ -70,6 +79,7 @@ input, span {
 h1 {
     font-size: 6em;
     margin-top: 2em;
+    margin-bottom: .5em;
 }
 
 input {
@@ -86,15 +96,15 @@ span {
 }
 
 #nomination {
-    font-size: 2.5em;
+    font-size: 3em;
     width: 60%
 }
 
 h2 {
     font-family: FoglihtenNo06, sans-serif;
-    font-size: 2em;
-    margin-top: 1em;
-    margin-bottom: 6.5em;
+    font-size: 2.5em;
+    margin-top: .7em;
+    margin-bottom: 6em;
 }
 
 #princess {
