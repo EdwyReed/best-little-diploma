@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto&display=swap');
 
 @font-face {
-    font-family: Callysto;
-    src: url(./fonts/Callysto.ttf);
+    font-family: Topelius-Modern;
+    src: url(./fonts/Topelius-Modern.ttf);
 }
 
-html, button, input {
-    font-family: Callysto !important;
+@font-face {
+    font-family: FoglihtenNo06;
+    src: url(./fonts/foglihtenno06.ttf);
+}
+
+html, input {
+    font-family: Topelius-Modern, sans-serif !important;
 }
 
 body {
@@ -15,7 +20,7 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
-    background-color: #DCC0F9;
+    background-color: #FCD8E3;
 }
 
 .diploma-card {
@@ -23,9 +28,10 @@ body {
     /*background-position: center;*/
     /*background-repeat: no-repeat;*/
     /*background-size: contain;*/
+
     width: min(150vh, 90vw);
     font-size: min(1.2vh, .9vw);
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 10.4;
     margin: 0;
 
     position: relative;
@@ -38,7 +44,6 @@ body {
 }
 
 svg {
-    background-color: #DCC0F9;
     position: absolute;
     top: 0;
     left: 0;
@@ -49,6 +54,16 @@ svg {
 
 input, h1, h2, span {
     color: #DCC0F9;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px #a67d83;
+    letter-spacing: 5px;
+}
+
+input, span {
+    text-shadow: 1px 1px 2px #a67d83;
+    letter-spacing: 5px;
 }
 
 h1 {
@@ -75,7 +90,7 @@ span {
 }
 
 h2 {
-    font-family: Nunito, sans-serif;
+    font-family: FoglihtenNo06, sans-serif;
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 6.5em;
@@ -83,6 +98,7 @@ h2 {
 
 #princess {
     font-size: 3.5em;
+    margin-bottom: -3%;
     width: 70%
 }
 
